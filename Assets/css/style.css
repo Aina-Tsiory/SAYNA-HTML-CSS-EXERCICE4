@@ -1,0 +1,117 @@
+/* Pour la police spécial */
+
+@font-face {
+    font-family: 'Font1';
+    src: url('../css/Far_From_Homecoming_500.otf') format('opentype');
+}
+
+.navbar {
+    background-color: #B11313;
+}
+
+
+/* corps de home */
+
+
+/* corps home principale avex image de fond */
+
+.principale_mobile {
+    display: none;
+}
+
+.spide_font {
+    font-family: 'Font1';
+}
+
+.to_reverse button {
+    padding: 10px 20px;
+    border: solid 2px white;
+    border-radius: 30px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+
+/* corps home avec 3 conteneur */
+
+.conteneur_image {
+    padding: 20px 5%;
+    font-size: 15px;
+}
+
+.conteneur_image button {
+    background-color: white;
+    color: #B11313;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+/* pour la partie avec couleur de fond bleue */
+
+
+/* pour le style du footer sur desktop */
+
+footer {
+    padding: 50px 5% 10px 5%;
+    text-align: center;
+}
+
+.mobile_sayna {
+    display: none;
+}
+
+.rs_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rs_footer p {
+    background-color: #B11313;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 2%;
+}
+
+
+/* pour le style en responsive */
+
+
+/* responsive navbar */
+
+@media screen and (max-width:960px) {
+    /* pour les header */
+    .navbar {
+        display: none;
+    }
+    /* pour responsive de home */
+    /* pour principale lien saynaXmarvel */
+    .juste_espace {
+        display: none;
+    }
+    .principale_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    /* pour conteneur 3 image */
+    .contenu_corps {
+        text-align: center;
+    }
+    .conteneur_image {
+        padding: 50px 10%;
+    }
+    /* pour le footer */
+    .footer1 {
+        text-align: left;
+    }
+    .mobile_sayna {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
