@@ -52,10 +52,46 @@
 /* pour la partie avec couleur de fond bleue */
 
 
+/* pour le formulaire d'inscription tenue desktop */
+
+.bleue {
+    background-color: #114C92;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 100px 0;
+}
+
+.inscription_tenue div {
+    padding: 10px 0;
+}
+
+.inscription_tenue input {
+    width: 80%;
+    border: solid 0.5 black;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+
+/* pour la partie de la newsletter */
+
+
+/* pour les formulaire d'inscription à la newsletter */
+
+.rouge {
+    background-position-x: right;
+    padding: 40px 15%;
+}
+
+.rouge div {
+    padding: 20px 0;
+}
+
+
 /* pour le style du footer sur desktop */
 
 footer {
-    padding: 50px 5% 10px 5%;
+    padding: 50px 3% 10px 3%;
     text-align: center;
 }
 
@@ -70,7 +106,7 @@ footer {
     margin: 20px 0;
 }
 
-.rs_footer p {
+.rs_footer>p {
     background-color: #B11313;
     padding: 10px;
     border-radius: 50px;
@@ -104,6 +140,18 @@ footer {
     }
     .conteneur_image {
         padding: 50px 10%;
+    }
+    /* pour le formulaire d'inscription pour costume */
+    .bleue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* pour le formulaire en rouge (inscription_newsletter) */
+    .rouge {
+        padding: 10px 5%;
+        background-position-x: 250px;
+        background-position-y: 75px;
     }
     /* pour le footer */
     .footer1 {
