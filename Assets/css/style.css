@@ -5,12 +5,30 @@
     src: url('../css/Far_From_Homecoming_500.otf') format('opentype');
 }
 
-.navbar {
+.navhome {
     background-color: #B11313;
 }
 
 
+/* pour navbar dans adversaire qui est jaune */
+
+.navedv {
+    background-color: #F1C530;
+}
+
+
+/* pour navbar de heros qui est bleue */
+
+.navheros {
+    background-color: #114C92;
+}
+
+
 /* corps de home */
+
+.disparait {
+    display: none;
+}
 
 
 /* corps home principale avex image de fond */
@@ -88,6 +106,32 @@
 }
 
 
+/* pour style de heros */
+
+
+/* pour l'image superposé */
+
+.img1sur1 {
+    padding-top: 50px;
+}
+
+.img2sur1 {
+    margin-top: -100px;
+    padding-left: 200px;
+}
+
+
+/* pour image rond */
+
+.apparait {
+    display: none;
+}
+
+.imgrond2 {
+    display: none;
+}
+
+
 /* pour le style du footer sur desktop */
 
 footer {
@@ -134,6 +178,9 @@ footer {
         align-items: center;
         justify-content: flex-start;
     }
+    .disparait {
+        display: block;
+    }
     /* pour conteneur 3 image */
     .contenu_corps {
         text-align: center;
@@ -152,6 +199,34 @@ footer {
         padding: 10px 5%;
         background-position-x: 250px;
         background-position-y: 75px;
+    }
+    /* pour la page heros */
+    /* image superposé */
+    .img1sur1,
+    .img2sur1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px 10%;
+        margin: 0px;
+    }
+    /* pour les images rond dans heros */
+    .herospart2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgrond1 {
+        display: none;
+    }
+    .imgrond2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .imgrond2 img {
+        width: 100%;
+    }
+    .apparait {
+        display: block;
     }
     /* pour le footer */
     .footer1 {
