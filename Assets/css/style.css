@@ -191,6 +191,9 @@ footer {
         -moz-appearance: none;
         appearance: none;
     }
+    .option_principale_mobile select {
+        background-color: rgba(75, 75, 75, 0.01);
+    }
     .disparait {
         display: block;
     }
