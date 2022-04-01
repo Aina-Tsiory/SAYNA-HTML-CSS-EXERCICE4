@@ -228,6 +228,9 @@ footer {
     .apparait {
         display: block;
     }
+    .disparait1 {
+        display: none;
+    }
     /* pour le footer */
     .footer1 {
         text-align: left;
