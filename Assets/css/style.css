@@ -23,6 +23,10 @@
     background-color: #114C92;
 }
 
+.option_principale_mobile {
+    display: none;
+}
+
 
 /* corps de home */
 
@@ -177,6 +181,15 @@ footer {
         display: flex;
         align-items: center;
         justify-content: flex-start;
+    }
+    .option_principale_mobile {
+        display: flex;
+    }
+    select {
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     .disparait {
         display: block;
