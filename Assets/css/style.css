@@ -109,6 +109,10 @@
     padding: 20px 0;
 }
 
+.check_averti {
+    display: flex;
+}
+
 
 /* pour style de heros */
 
