@@ -173,6 +173,10 @@ footer {
     pointer-events: all;
 }
 
+.footer2 a:focus {
+    pointer-events: all;
+}
+
 .rs_footer {
     display: flex;
     justify-content: center;
