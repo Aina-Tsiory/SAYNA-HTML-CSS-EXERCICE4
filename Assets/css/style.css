@@ -5,6 +5,14 @@
     src: url('../css/Far_From_Homecoming_500.otf') format('opentype');
 }
 
+body {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
 .navhome {
     background-color: #B11313;
 }
@@ -186,6 +194,18 @@ footer {
 /* responsive navbar */
 
 @media screen and (max-width:960px) {
+    h1 {
+        font-size: 32px;
+    }
+    h3,
+    h4 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
     /* pour les header */
     .navbar {
         display: none;
@@ -213,6 +233,9 @@ footer {
     }
     .menu_mobile button:focus+ul {
         opacity: 1;
+        pointer-events: all;
+    }
+    .menu_mobile a:focus {
         pointer-events: all;
     }
     .disparait {
