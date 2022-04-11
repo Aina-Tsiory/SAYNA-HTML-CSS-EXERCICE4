@@ -151,6 +151,20 @@ footer {
     display: none;
 }
 
+.footer2>ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    font-weight: lighter;
+}
+
+.footer2 button:focus+ul {
+    opacity: 1;
+    pointer-events: all;
+}
+
 .rs_footer {
     display: flex;
     justify-content: center;
@@ -189,14 +203,17 @@ footer {
     .option_principale_mobile {
         display: flex;
     }
-    select {
-        -webkit-appearance: none;
-        -ms-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
+    .menu_mobile>ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        pointer-events: none;
+        font-weight: lighter;
     }
-    .option_principale_mobile select {
-        background-color: rgba(75, 75, 75, 0.01);
+    .menu_mobile button:focus+ul {
+        opacity: 1;
+        pointer-events: all;
     }
     .disparait {
         display: block;
