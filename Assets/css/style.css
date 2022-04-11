@@ -157,6 +157,10 @@ h5 {
     display: none;
 }
 
+.fond_bleue div {
+    padding: 50px 1%;
+}
+
 
 /* pour le style du footer sur desktop */
 
@@ -304,6 +308,14 @@ footer {
     }
     .disparait1 {
         display: none;
+    }
+    .fond_bleue {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    .fond_bleue div {
+        padding: 10px 5%;
     }
     /* pour le footer */
     .footer1 {
